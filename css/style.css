@@ -270,7 +270,7 @@ a:hover {
 
 .ico-circle {
   height: 100px;
-  width: 100px;
+  width: 145px;
   border-radius: 50%;
   line-height: 1.55;
   margin: 0 auto;
@@ -721,9 +721,9 @@ a:hover {
 
 .service-box {
   background-color: #fff;
-  padding: 0.5rem 1.3rem;
+  padding: 0.5rem;
   border-radius: 1rem;
-  margin-bottom: 2rem;
+  margin: .6rem;
 }
 
 /* .service-box:hover .ico-circle {
