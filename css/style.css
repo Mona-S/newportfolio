@@ -154,6 +154,7 @@ a:hover {
 
 .title-box {
   margin-bottom: 4rem;
+  text-align: center;
 }
 
 .title-a {
@@ -838,6 +839,7 @@ a:hover {
 .w-title {
   font-size: 1.2rem;
   text-align: center;
+  width:150%;
 }
 
 /*======================================
