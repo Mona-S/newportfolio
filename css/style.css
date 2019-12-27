@@ -184,6 +184,11 @@ a:hover {
   position: relative;
 }
 
+
+.title-left-about{
+  text-align: center;
+}
+
 .title-left:before {
   content: '';
   position: absolute;
