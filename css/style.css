@@ -1212,9 +1212,15 @@ footer .credits a {
     width: 80%;
     margin-left: 10%;
 }
+
+.aboutme {
+  font-size: 1rem;
+  font-weight: 300;
+  text-align: justify;
+}
 }
 
-@media screen and (min-width: 375px) and (max-width: 667px) and (orientation: landscape)  {
+@media screen and  (max-width: 667px) and (orientation: landscape)  {
 
   .service-box {
     background-color: #fff;
