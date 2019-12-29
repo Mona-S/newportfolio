@@ -1207,10 +1207,126 @@ footer .credits a {
   border-radius: .3rem;
 }
 
+@media screen and (max-width: 375px)   and (orientation: portrait){
+  .row1 {
+    width: 80%;
+    margin-left: 10%;
+}
+}
+
+@media screen and (min-width: 375px) and (max-width: 667px) and (orientation: landscape)  {
+
+  .service-box {
+    background-color: #fff;
+    padding: 0rem;
+    border-radius: 1rem;
+    margin: .2rem;
+}
+  .ico-circle {
+    height: 57px;
+    width: 133px;
+    border-radius: 50%;
+    line-height: 0.55;
+    margin-left: 10px;
+    text-align: center;
+    /* box-shadow: 0 0 0 10px #0078ff; */
+    display: block;
+  }
+
+  .service-box .ico-circle {
+    transition: all 500ms ease;
+    font-size: 3rem;
+    margin-top: .5rem;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: 0px;
+}
+
+  .title-box {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  .row1 {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.title-box-2 {
+  width: 100%;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.about-mf .box-shadow-full {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.aboutme {
+  font-size: 1rem;
+  font-weight: 300;
+  text-align: justify;
+}
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px)  and (orientation:portrait)
+{
+  .service-box {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    margin: .8rem;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.w-more {
+  width: 76%;
+}
+
+.w-title {
+  font-size: 1.2rem;
+  text-align: center;
+  width: 161%;
+}
+
+.row1 {
+  width: 80%;
+  margin-left: 10%;
+}
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px)  and (orientation: landscape) {
+.service-box {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin: 0.8rem;
+}
+
+}
+
 @media (min-width: 577px) {
   .counter-box {
     margin-bottom: 1.8rem;
   }
+ 
+
 }
 
 @media (min-width: 767px) {
