@@ -1213,11 +1213,43 @@ footer .credits a {
     margin-left: 10%;
 }
 
+.ico-circle {
+  height: 75px;
+  width: 159px;
+  border-radius: 50%;
+  line-height: 1.55;
+  margin: 0 auto;
+  text-align: center;
+  /* box-shadow: 0 0 0 10px #0078ff; */
+  display: block;
+}
+
+.service-box {
+  background-color: #fff;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  margin: .2rem;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -10px;
+  margin-left: -10px;
+}
+
 .aboutme {
   font-size: 1rem;
   font-weight: 300;
   text-align: justify;
 }
+.about-mf .box-shadow-full {
+  padding-top: 0rem;
+  padding-bottom: 2rem;
+}
+
 }
 
 @media screen and  (max-width: 667px) and (orientation: landscape)  {
@@ -1250,7 +1282,7 @@ footer .credits a {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -15px;
+  margin-right: 0px;
   margin-left: 0px;
 }
 
@@ -1278,6 +1310,10 @@ footer .credits a {
   font-size: 1rem;
   font-weight: 300;
   text-align: justify;
+}
+
+.w-more {
+  width: 53%;
 }
 
 }
@@ -1315,6 +1351,11 @@ footer .credits a {
   margin-left: 10%;
 }
 
+.about-mf .box-shadow-full {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
 }
 
 @media screen and (min-width: 481px) and (max-width: 1024px)  and (orientation: landscape) {
@@ -1349,6 +1390,7 @@ footer .credits a {
     margin-top: 3rem;
     padding-left: 0rem;
   }
+  
 }
 
 @media (min-width: 768px) {
