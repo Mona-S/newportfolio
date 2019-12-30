@@ -1,17 +1,8 @@
-/*
-  Theme Name: DevFolio
-  Theme URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
-
-/*======================================
-//--//-->   STYLES GENERALES
-======================================*/
 
 body {
   background-color: #f5f5f5;
   color: #4e4e4e;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 h1,
@@ -1248,6 +1239,12 @@ footer .credits a {
 .about-mf .box-shadow-full {
   padding-top: 0rem;
   padding-bottom: 2rem;
+}
+
+.w-title {
+  font-size: 1.2rem;
+  text-align: center;
+  width: 95%;
 }
 
 }
