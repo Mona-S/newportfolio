@@ -1,17 +1,8 @@
-/*
-  Theme Name: DevFolio
-  Theme URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
-
-/*======================================
-//--//-->   STYLES GENERALES
-======================================*/
 
 body {
   background-color: #f5f5f5;
   color: #4e4e4e;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 h1,
@@ -154,6 +145,7 @@ a:hover {
 
 .title-box {
   margin-bottom: 4rem;
+  text-align: center;
 }
 
 .title-a {
@@ -173,15 +165,28 @@ a:hover {
   margin: 0 auto;
 }
 
+.aboutme {
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-align: justify;
+}
+
 /*--/ Title Left /--*/
 
 .title-box-2 {
+  width: 100%;
   margin-bottom: 3rem;
+  text-align: center;
 }
 
 .title-left {
   font-size: 2rem;
   position: relative;
+}
+
+
+.title-left-about{
+  text-align: center;
 }
 
 .title-left:before {
@@ -265,7 +270,7 @@ a:hover {
 
 .ico-circle {
   height: 100px;
-  width: 100px;
+  width: 145px;
   border-radius: 50%;
   line-height: 1.55;
   margin: 0 auto;
@@ -716,9 +721,9 @@ a:hover {
 
 .service-box {
   background-color: #fff;
-  padding: 0.5rem 1.3rem;
+  padding: 0.5rem;
   border-radius: 1rem;
-  margin-bottom: 2rem;
+  margin: .8rem;
 }
 
 /* .service-box:hover .ico-circle {
@@ -803,9 +808,13 @@ a:hover {
   padding: 2rem 3% 1rem 4%;
 }
 
+.w-more{
+  width:50%;
+}
+
 .work-content .w-more {
   color: #4e4e4e;
-  font-size: .8rem;
+  font-size: 1rem;
 }
 
 .work-content .w-more .w-ctegory {
@@ -829,6 +838,7 @@ a:hover {
 .w-title {
   font-size: 1.2rem;
   text-align: center;
+  width:150%;
 }
 
 /*======================================
@@ -1188,10 +1198,179 @@ footer .credits a {
   border-radius: .3rem;
 }
 
+@media screen and (max-width: 375px)   and (orientation: portrait){
+  .row1 {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.ico-circle {
+  height: 75px;
+  width: 159px;
+  border-radius: 50%;
+  line-height: 1.55;
+  margin: 0 auto;
+  text-align: center;
+  /* box-shadow: 0 0 0 10px #0078ff; */
+  display: block;
+}
+
+.service-box {
+  background-color: #fff;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  margin: .2rem;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -10px;
+  margin-left: -10px;
+}
+
+.aboutme {
+  font-size: 1rem;
+  font-weight: 300;
+  text-align: justify;
+}
+.about-mf .box-shadow-full {
+  padding-top: 0rem;
+  padding-bottom: 2rem;
+}
+
+.w-title {
+  font-size: 1.2rem;
+  text-align: center;
+  width: 95%;
+}
+
+}
+
+@media screen and  (max-width: 667px) and (orientation: landscape)  {
+
+  .service-box {
+    background-color: #fff;
+    padding: 0rem;
+    border-radius: 1rem;
+    margin: .2rem;
+}
+  .ico-circle {
+    height: 57px;
+    width: 133px;
+    border-radius: 50%;
+    line-height: 0.55;
+    margin-left: 10px;
+    text-align: center;
+    /* box-shadow: 0 0 0 10px #0078ff; */
+    display: block;
+  }
+
+  .service-box .ico-circle {
+    transition: all 500ms ease;
+    font-size: 3rem;
+    margin-top: .5rem;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+  .title-box {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  .row1 {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.title-box-2 {
+  width: 100%;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.about-mf .box-shadow-full {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.aboutme {
+  font-size: 1rem;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.w-more {
+  width: 53%;
+}
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px)  and (orientation:portrait)
+{
+  .service-box {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    margin: .8rem;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.w-more {
+  width: 76%;
+}
+
+.w-title {
+  font-size: 1.2rem;
+  text-align: center;
+  width: 161%;
+}
+
+.row1 {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.about-mf .box-shadow-full {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px)  and (orientation: landscape) {
+.service-box {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin: 0.8rem;
+}
+
+}
+
 @media (min-width: 577px) {
   .counter-box {
     margin-bottom: 1.8rem;
   }
+ 
+
 }
 
 @media (min-width: 767px) {
@@ -1208,6 +1387,7 @@ footer .credits a {
     margin-top: 3rem;
     padding-left: 0rem;
   }
+  
 }
 
 @media (min-width: 768px) {
