@@ -812,6 +812,10 @@ a:hover {
   width:50%;
 }
 
+.w-more-ml{
+  width:140%;
+}
+
 .work-content .w-more {
   color: #4e4e4e;
   font-size: 1rem;
