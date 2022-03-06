@@ -696,7 +696,24 @@ a:hover {
 }
 
 .about-mf .about-img img {
-  margin-left: 10px;
+  margin-left: 50px;
+  
+}
+
+.ml-image {
+  padding-left: 30px;
+  padding-top: 15px;
+  padding-right: 40px;
+}
+
+.tableau-image {
+  padding-left: 10px;
+  padding-right: 28px;
+}
+
+.sql-image {
+  padding-left: 20px;
+  padding-right: 16px;
 }
 
 .skill-mf span {
@@ -810,6 +827,10 @@ a:hover {
 
 .w-more{
   width:50%;
+}
+
+.w-more-ml{
+  width:140%;
 }
 
 .work-content .w-more {
